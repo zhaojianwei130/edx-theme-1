@@ -1,4 +1,4 @@
-.ionisx-btn(@fg-color, @bg-color) {
+.uestc-btn(@fg-color, @bg-color) {
     .square(auto);
 
     font: inherit;
@@ -35,18 +35,18 @@
     }
 
     &:focus, &:active {
-        .ionisx-btn-hover(@fg-color, @bg-color);
+        .uestc-btn-hover(@fg-color, @bg-color);
 
         border-color: @bg-color;
         outline: none;
     }
 
     &:hover {
-        .ionisx-btn-hover(@fg-color, @bg-color);
+        .uestc-btn-hover(@fg-color, @bg-color);
     }
 }
 
-.ionisx-btn-hover(@fg-color, @bg-color) {
+.uestc-btn-hover(@fg-color, @bg-color) {
     background: none;
     background-color: @fg-color;
     color: @bg-color;
@@ -62,8 +62,8 @@
     }
 }
 
-.ionisx-btn-disabled(@fg-color: @color-disabled) {
-    .ionisx-btn(@fg-color, @white);
+.uestc-btn-disabled(@fg-color: @color-disabled) {
+    .uestc-btn(@fg-color, @white);
 
     cursor: default;
 }

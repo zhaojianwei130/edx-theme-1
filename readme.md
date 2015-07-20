@@ -1,16 +1,14 @@
 # edx-theme
 
-[![Build Status](https://travis-ci.org/IONISx/edx-theme.svg?branch=master)](https://travis-ci.org/IONISx/edx-theme)
-[![Dependencies Status](https://david-dm.org/IONISx/edx-theme.svg)](https://david-dm.org/IONISx/edx-theme)
-[![Dev Dependencies Status](https://david-dm.org/IONISx/edx-theme/dev-status.svg)](https://david-dm.org/IONISx/edx-theme#info=devDependencies)
-
 > Open edX responsive theme using [Bootstrap](http://getbootstrap.com/).
 
 ![Screenshot](https://raw.githubusercontent.com/IONISx/edx-theme/docs/images/responsive.png)
 
 ## About this Open edX theme
 
-This theme is developped originally for [IONISx](https://ionisx.com).
+This theme is developed for [UESTC](http://xuemooc.com).
+
+Forked from [IONISx](https://github.com/IONISx/edx-theme)
 
 As it’s based on [Bootstrap](http://getbootstrap.com/), it used [Less](http://lesscss.org/) (instead of
 Sass – which is used by Open edX).
